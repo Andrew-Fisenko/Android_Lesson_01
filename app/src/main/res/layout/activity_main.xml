@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:gravity="center"
-        android:text="My First Application"
+        android:text="@string/my_first_application"
         android:textColor="#556B2F"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -32,7 +32,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="50dp"
         android:gravity="center"
-        android:text="Write something here!"
+        android:text="@string/write_something_here"
         android:textColor="#80000000" />
 
     <Button
@@ -42,7 +42,7 @@
         android:layout_gravity="center"
         android:backgroundTint="#556B2F"
         android:gravity="center"
-        android:text="PRESS ME" />
+        android:text="@string/registration" />
 
     <Switch
         android:id="@+id/switch1"
@@ -55,28 +55,30 @@
         android:scaleY="2"
         android:showText="true"
         android:switchPadding="20dp"
-        android:text="Do Nothing"
-        android:textOff="-"
-        android:textOn="+" />
+        android:text="@string/do_nothing"
+        android:textOff="@string/off"
+        android:textOn="@string/on"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Do you like my App?"
+        android:text="@string/do_you_like_my_app"
         android:textColor="#556B2F" />
 
     <TextView
         android:id="@+id/text2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="What do you think about my work?"
-        android:textColor="#556B2F"
-        android:textSize="16sp"
+        android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        />
+        android:ems="6"
+        android:gravity="center"
+        android:text="@string/what_do_you_think_about_my_work"
+        android:textColor="#556B2F"
+        android:textSize="16sp" />
 
     <ToggleButton
         android:id="@+id/toggleBot"
@@ -87,8 +89,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginRight="50dp"
         android:layout_marginBottom="50dp"
-        android:checked="true"
         android:background="#556B2F"
-        android:textOff="WHF man???"
-        android:textOn="Good work, bro!" />
+        android:checked="true"
+        android:textOff="@string/whf_man"
+        android:textOn="@string/good_work_bro" />
 </LinearLayout>
