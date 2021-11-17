@@ -42,7 +42,7 @@
         android:layout_gravity="center"
         android:backgroundTint="#556B2F"
         android:gravity="center"
-        android:text="@string/registration" />
+        android:text="@string/lanchCalculator" />
 
     <Switch
         android:id="@+id/switch1"
