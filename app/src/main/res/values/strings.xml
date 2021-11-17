@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Android_Lesson_01</string>
+    <string name="my_first_application">My First Application</string>
+    <string name="write_something_here">Write something here!</string>
+    <string name="registration">Registration</string>
+    <string name="do_nothing">Do Nothing</string>
+    <string name="off">-</string>
+    <string name="on">+</string>
+    <string name="do_you_like_my_app">Do you like my App?</string>
+    <string name="what_do_you_think_about_my_work">What do you think about my work?</string>
+    <string name="whf_man">WHF man???</string>
+    <string name="good_work_bro">Good work, bro!</string>
+    <string name="your_organization">Your organization</string>
+    <string name="your_phone">Your phone</string>
+    <string name="your_age">Your age</string>
+    <string name="generate_a_password">Generate a password</string>
+    <string name="your_e_mail">Your e-mail</string>
 </resources>
