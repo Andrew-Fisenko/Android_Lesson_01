@@ -3,6 +3,7 @@ package com.example.android_lesson_01;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
@@ -16,8 +17,13 @@ public class MainActivity extends AppCompatActivity  {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, RegistrationActivity.class);
-                startActivity(i);
+                Uri uri = Uri.parse("calc://start");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+
+                startActivity(Intent.createChooser(intent, ""));
+
+//                Intent i = new Intent(MainActivity.this, RegistrationActivity.class);
+//                startActivity(i);
             }
         });
     }

@@ -15,4 +15,5 @@
     <string name="your_age">Your age</string>
     <string name="generate_a_password">Generate a password</string>
     <string name="your_e_mail">Your e-mail</string>
+    <string name="lanchCalculator">Lanch Calculator!</string>
 </resources>
